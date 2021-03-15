@@ -1,0 +1,9 @@
+Parameters:
+
+type: all-meat - all sentences only about meat.
+sentences: number of sentences.
+start-with-lorem: optional pass 1 to start the first paragraph with ‘Bacon ipsum dolor amet’.
+
+Result:
+
+text

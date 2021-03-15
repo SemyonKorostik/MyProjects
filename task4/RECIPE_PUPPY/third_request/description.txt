@@ -1,0 +1,14 @@
+Parameters:
+
+i : comma delimited ingredients
+q : a dish
+p : site page number
+format: output format
+
+Result:
+
+Output of all suitable dishes on the specified page in xml format.
+
+tittle: name of the dish.
+href: link to the website with the recipe.
+ingredients: ingredients of the dish.

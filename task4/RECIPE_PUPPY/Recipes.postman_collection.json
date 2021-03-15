@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "0b39cd1f-b421-41d7-a5a5-de7bc1c7b051",
+		"name": "Recipes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://www.recipepuppy.com/api/?i=onions,carrot&q=beef&p=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=onions,carrot&q=beef&p=1",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "onions,carrot"
+						},
+						{
+							"key": "q",
+							"value": "beef"
+						},
+						{
+							"key": "p",
+							"value": "1"
+						}
+					]
+				},
+				"description": "Recipe Puppy"
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.cookthing.com/recipes/?i=garlic&q=pasta&p=2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=garlic&q=pasta&p=2",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "garlic"
+						},
+						{
+							"key": "q",
+							"value": "pasta"
+						},
+						{
+							"key": "p",
+							"value": "2"
+						}
+					]
+				},
+				"description": "recipe2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://www.recipepuppy.com/api/?i=butter&q=cake&p=3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.recipepuppy.com/api/?i=butter&q=cake&p=3",
+					"protocol": "http",
+					"host": [
+						"www",
+						"recipepuppy",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "i",
+							"value": "butter"
+						},
+						{
+							"key": "q",
+							"value": "cake"
+						},
+						{
+							"key": "p",
+							"value": "3"
+						}
+					]
+				},
+				"description": "recipe3"
+			},
+			"response": []
+		}
+	]
+}

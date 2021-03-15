@@ -1,0 +1,14 @@
+Parameters:
+
+firstName, lastName:  To get one random joke with the name of the main character.
+exclude: Joke from categories "nerdy", "explicit”.
+
+Result:
+
+JSON format
+
+type: will be “success” on success and something else when something went wrong.
+value: information about the joke.
+id: joke id.
+joke: joke text.
+categories: category joke (there are only two categories in the database, so "[]").

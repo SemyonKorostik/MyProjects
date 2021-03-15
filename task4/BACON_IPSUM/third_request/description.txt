@@ -1,0 +1,10 @@
+Parameters:
+
+type: meat-and-filler for meat mixed with miscellaneous ‘lorem ipsum’ filler.
+paras: number of paragraphs.
+start-with-lorem: optional pass 1 to start the first paragraph with ‘Bacon ipsum dolor amet’.
+format: the result is in html format
+
+Result:
+
+html (<p>...</p> tags)

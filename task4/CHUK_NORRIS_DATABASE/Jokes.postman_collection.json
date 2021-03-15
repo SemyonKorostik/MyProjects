@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "e6282992-5d54-4a9e-925a-dadd1d49a2d2",
+		"name": "Jokes",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://api.icndb.com/jokes/random?firstName=Sherlock&lastName=Holmes",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.icndb.com/jokes/random?firstName=Sherlock&lastName=Holmes",
+					"protocol": "http",
+					"host": [
+						"api",
+						"icndb",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"random"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "Sherlock"
+						},
+						{
+							"key": "lastName",
+							"value": "Holmes"
+						}
+					]
+				},
+				"description": "joke"
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.icndb.com/jokes/random?exclude=«funny»",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.icndb.com/jokes/random?exclude=«explicit»",
+					"protocol": "http",
+					"host": [
+						"api",
+						"icndb",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"random"
+					],
+					"query": [
+						{
+							"key": "exclude",
+							"value": "«explicit»"
+						}
+					]
+				},
+				"description": "joke2"
+			},
+			"response": []
+		},
+		{
+			"name": "http://api.icndb.com/jokes/random?firstName=Valentina&lastName=Sidorova&exclude=[nerdy,explicit]",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://api.icndb.com/jokes/random?firstName=Valentina&lastName=Sidorova&exclude=[nerdy,explicit]",
+					"protocol": "http",
+					"host": [
+						"api",
+						"icndb",
+						"com"
+					],
+					"path": [
+						"jokes",
+						"random"
+					],
+					"query": [
+						{
+							"key": "firstName",
+							"value": "Valentina"
+						},
+						{
+							"key": "lastName",
+							"value": "Sidorova"
+						},
+						{
+							"key": "exclude",
+							"value": "[nerdy,explicit]"
+						}
+					]
+				},
+				"description": "joke3"
+			},
+			"response": []
+		}
+	]
+}

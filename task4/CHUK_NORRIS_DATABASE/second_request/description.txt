@@ -1,0 +1,13 @@
+Parameters:
+
+exclude: Jokes category " explicit”.
+
+Result:
+
+JSON format
+
+type: will be “success” on success and something else when something went wrong.
+value: information about the joke.
+id: joke id.
+joke: joke text.
+categories: category joke.

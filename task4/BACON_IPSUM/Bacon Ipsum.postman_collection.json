@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "7cefc31e-27ae-4ae6-ab9f-62af474389ec",
+		"name": "Bacon Ipsum",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://baconipsum.com/api/?type=meat-and-filler&paras=6&start-with-lorem=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://baconipsum.com/api/?type=meat-and-filler&paras=6&start-with-lorem=1",
+					"protocol": "https",
+					"host": [
+						"baconipsum",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "meat-and-filler"
+						},
+						{
+							"key": "paras",
+							"value": "6"
+						},
+						{
+							"key": "start-with-lorem",
+							"value": "1"
+						}
+					]
+				},
+				"description": "baconipsum"
+			},
+			"response": []
+		},
+		{
+			"name": "https://baconipsum.com/api/?type=all-meat&sentences=5&start-with-lorem=1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://baconipsum.com/api/?type=all-meat&sentences=5&start-with-lorem=1",
+					"protocol": "https",
+					"host": [
+						"baconipsum",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "all-meat"
+						},
+						{
+							"key": "sentences",
+							"value": "5"
+						},
+						{
+							"key": "start-with-lorem",
+							"value": "1"
+						}
+					]
+				},
+				"description": "baconipsum2"
+			},
+			"response": []
+		},
+		{
+			"name": "https://baconipsum.com/api/?type=meat-and-filler&paras=2&start-with-lorem=1&format=html",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://baconipsum.com/api/?type=meat-and-filler&paras=2&start-with-lorem=1&format=html",
+					"protocol": "https",
+					"host": [
+						"baconipsum",
+						"com"
+					],
+					"path": [
+						"api",
+						""
+					],
+					"query": [
+						{
+							"key": "type",
+							"value": "meat-and-filler"
+						},
+						{
+							"key": "paras",
+							"value": "2"
+						},
+						{
+							"key": "start-with-lorem",
+							"value": "1"
+						},
+						{
+							"key": "format",
+							"value": "html"
+						}
+					]
+				},
+				"description": "baconipsum3"
+			},
+			"response": []
+		}
+	]
+}
